@@ -11,7 +11,8 @@ namespace Marketplace.Data
         {
         }
 
-        public DbSet<Produto> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<Pedido> Orders { get; set; }
     }
+
 }

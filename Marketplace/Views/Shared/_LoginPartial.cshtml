@@ -1,8 +1,8 @@
 @using Microsoft.AspNetCore.Identity
 @using Marketplace.Models
 
-@inject SignInManager<Usuario> SignInManager
-@inject UserManager<Usuario> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
