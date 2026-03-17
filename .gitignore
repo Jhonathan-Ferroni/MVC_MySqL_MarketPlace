@@ -1,0 +1,35 @@
+## [ Bibliotecas e Build ]
+bin/
+obj/
+publish/
+
+## [ Ferramentas do .NET ]
+.librarymanager/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+## [ Configurações de Banco de Dados e Segredos ]
+# Não ignore o appsettings.json padrão, mas ignore o Development e segredos
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.publishsettings
+
+## [ Entity Framework e Migrations ]
+# Geralmente mantemos as migrations no Git, mas ignoramos logs de execução
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+## [ Frontend (se usar LibMan ou NPM) ]
+node_modules/
+wwwroot/lib/
+dist/
+
+## [ Sistema Operacional ]
+.DS_Store
+Thumbs.db
