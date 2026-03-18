@@ -13,6 +13,6 @@ namespace Marketplace.Models
         [Required(ErrorMessage = "O nome é obrigatório.")]
         [Range(3, 100, ErrorMessage = "O nome deve conter entre 3 e 100 caracteres.")]
         public string Name { get; set; }
-        public List<Product> Products { get; set; }
+        public List<Product>? Products { get; set; }
     }
 }
