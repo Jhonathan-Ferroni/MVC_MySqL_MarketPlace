@@ -2,7 +2,7 @@
 
 namespace Marketplace.Models
 {
-    public class Departamentos
+    public class Departments
     {
         [Key]
         public int Id { get; set; }
